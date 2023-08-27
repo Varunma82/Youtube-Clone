@@ -1,0 +1,29 @@
+{
+  "name": "video-app",
+  "homepage": "https://Varunma82.github.io/Youtube-Clone",
+  "version": "1.0.0",
+  "description": "watchit",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy":"npm run build",
+    "deploy" : "gh-pages -d build",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varun Maheshwari",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.0",
+    "react-router-dom": "^6.13.0"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
